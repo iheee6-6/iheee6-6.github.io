@@ -1,16 +1,24 @@
 # Site settings
+<<<<<<< HEAD
 title: HA EUN's Portfolio
+=======
+title: HA EUN Portfolio 
+>>>>>>> 69a335ed9af2824b895959c06d634b5526fa764f
 description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: "http://iheee6-6.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
+<<<<<<< HEAD
 username: HA EUN SHIN
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+=======
+username: HA EUN
+>>>>>>> 69a335ed9af2824b895959c06d634b5526fa764f
+user_description: Hansei Univ. Information Communication Engineering 
 user_title: Software Developer
 email: iheee6@gmail.com
 twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+github_username:  iheee6-6
 gplus_username:  lorem_ipsum
 
 # Google-analytics
