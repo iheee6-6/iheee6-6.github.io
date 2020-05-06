@@ -1,19 +1,12 @@
 # Site settings
-<<<<<<< HEAD
-title: HA EUN's Portfolio
-=======
-title: HA EUN Portfolio 
->>>>>>> 69a335ed9af2824b895959c06d634b5526fa764f
+title: HAEUN's Portfolio
 description: A blog about lorem ipsum dolor sit amet
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://iheee6-6.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-<<<<<<< HEAD
 username: HA EUN SHIN
-=======
-username: HA EUN
->>>>>>> 69a335ed9af2824b895959c06d634b5526fa764f
+
 user_description: Hansei Univ. Information Communication Engineering 
 user_title: Software Developer
 email: iheee6@gmail.com
