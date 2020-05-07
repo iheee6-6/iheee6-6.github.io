@@ -1,21 +1,115 @@
-<div class="user-details">
-    <h1> TCATCH </h1>
+<div class="user-details" style="margin:0px">
+    <h1 style="padding-top: 0px"> TCATCH </h1>
 </div>
 <div class="user-projects">
+    <img src="/assets/img/tcatchP.jpg" width="100%">
+    <img src="/assets/img/tcatchDB.jpg" width="100%">
+    <div class="images-left">
+        <img class="project-img" src="/assets/img/ticketOpenList.jpg">
+    </div>
+    <div class="contents-right">
+        <h3>오픈 예정 티켓 목록</h3>
+        <p>
+            D-Day로 나타내어 한 눈에 확인 가능하다.<br> 오픈 예정순으로 5개의 티켓들을 보여주고 나머지는 목록으로 표현하였다.
+            <br> 티켓 클릭 시 상세페이지로 이동한다.
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-left">
+        <img class="project-img" src="/assets/img/insertAlarm.jpg">
+    </div>
+    <div class="contents-right">
+        <h3>티켓팅 알림 신청</h3>
+        <p>
+            오픈 예정 티켓 상세 페이지에서 신청하는 모달이다.<br> AJAX를 통한 신청으로, 이미 신청한 티켓일 시 불가alert창을 띄운다.
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-left">
+        <img class="project-img" src="/assets/img/alarmEmail.jpg">
+    </div>
+    <div class="contents-right">
+        <h3>티켓팅 알림 EMAIL</h3>
+        <p>
+            티켓팅 한시간 전 알림이다.
+            <br> 로고와 함께 HTML형식으로 보내주었다.
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
     <div class="images-right">
-        <img alt="mountains" src="{{ " /assets/img/tcatch.jpg " | prepend: site.baseurl }}" />
+        <img class="project-img" src="/assets/img/firstPage.jpg" style="box-shadow:brown;">
     </div>
     <div class="contents">
-        <h3> TCATCH </h3>
-        <ul>
-            <li> JAVA JDK 1.8 / Spring 3.1 / Tomcat 8.5/ Oracle 11 / Mybatis 3.4 Html / CSS3 / Javascript / Jquery / Ajax / Bootstrap 4 </li>
-        </ul>
+        <h3>마이페이지- 첫 화면</h3>
         <p>
-            <b>프로젝트 개요</b> 콘서트,뮤지컬,연극,전시 예매 사이트<br>
-            <b>주요기능</b> 좌석 선택 및 예매 / 관리자 페이지 / 커뮤니티 <br> <span style="color: orangered;">마이페이지 / 오픈 예정 티켓 페이지 / 티켓팅 알림 서비스</span> <br>
-            <b>작업 기간</b> 2020.02.01~2020.03.27 <br>
-            <b>기여도</b> 3인 팀 프로젝트(39%)
+            최근 활동 내역을 확인할 수 있다. <br>왼쪽에는 마이페이지 메뉴바가 있어 이동 가능하다!
         </p>
-        <a class="project-link" href="#tcatch">Check it out</a>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-right">
+        <img class="project-img" src="/assets/img/ticketList.jpg" style="box-shadow:brown;">
+    </div>
+    <div class="contents">
+        <h3>마이페이지- 예매내역</h3>
+        <p>
+            예매순으로 예매 내역을 확인할 수 있다.<br> 티켓 클릭 시 상세페이지로 이동한다! <br>페이징 처리를 통해 페이지 이동이 가능하다!
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-right">
+        <img class="project-img" src="/assets/img/ticketDetail.jpg" style="box-shadow:brown;">
+    </div>
+    <div class="contents">
+        <h3>마이페이지- 티켓 상세 페이지</h3>
+        <p>
+            티켓의 정보 확인/ 예매 취소가 가능하다!<br> 단, 예매 취소 가능 일시 이후라면 불가능하다!!
+            <br> 좌석/ 극장 약도를 확인할 수 있고, 출력 또한 가능하다.
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-right">
+        <img class="project-img" src="/assets/img/likeList.jpg" style="box-shadow:brown;">
+    </div>
+    <div class="contents">
+        <h3>마이페이지- 관심공연 목록</h3>
+        <p>
+            등록순으로 정렬되어 있다.<br> 체크박스를 통해 삭제가 가능하다!(여러개 가능)
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-right">
+        <img class="project-img" src="/assets/img/alarmList.jpg" style="box-shadow:brown;">
+    </div>
+    <div class="contents">
+        <h3>마이페이지- 티켓팅 알림 설정 목록</h3>
+        <p>
+            티켓팅 일시순으로 정렬되어 있다.<br> 체크박스를 통해 삭제가 가능하다!(여러개 가능)
+        </p>
+    </div>
+</div>
+
+<div class="user-projects">
+    <div class="images-right">
+        <img class="project-img" src="/assets/img/updateMember.jpg" style="box-shadow:brown;">
+    </div>
+    <div class="contents">
+        <h3>마이페이지- 회원 정보 수정</h3>
+        <p>
+            탈퇴 / 수정이 가능하다!<br> 유효성 검사가 이루어지고, 비밀번호는 keyup할 때마다 기준과 비교한다.<br> 도로명 주소 API를 통한 주소 입력!
+        </p>
     </div>
 </div>
