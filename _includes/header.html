@@ -15,4 +15,20 @@
         </div>
     </div>
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    <a id="goUp" style="display:scroll;position:fixed;bottom:10px;right:30px;display: none; " href="#"><img src="/assets/img/icon (2).png"></a>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+                $('#goUp').fadeIn();
+            } else {
+                $('#goUp').fadeOut();
+            }
+        });
+    });
+</script>
 </div>
