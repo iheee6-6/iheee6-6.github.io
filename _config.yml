@@ -1,11 +1,11 @@
 # Site settings
-title: HAEUN's Portfolio
+title: Haeun 6-6
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://iheee6-6.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: HA EUN SHIN
+username: Shin Haeun
 
 user_description: Hansei Univ. Information Communication Engineering 
 user_title: Software Developer
